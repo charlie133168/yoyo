@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>服务与价格 - 暖心心理疗愈咨询</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-:root {
---color-beige: #F9F5F1;
---color-milktea: #E8D9CF;
---color-pink: #F4EAE8;
---color-green: #E6F0EA;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>服务与价格 - 暖心心理疗愈咨询</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --color-beige: #F9F5F1;
+      --color-milktea: #E8D9CF;
+      --color-pink: #F4EAE8;
+      --color-green: #E6F0EA;
+    }
+  </style>
 </head>
 <body class="bg-[var(--color-beige)] text-gray-800">
-<!-- 内容略 -->
+  <header class="bg-[var(--color-milktea)] shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">暖心心理疗愈</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="hover:text-pink-400">首页</a></li>
+          <li><a href="about.html" class="hover:text-pink-400">关于我</a></li>
+          <li><a href="services.html" class="hover:text-pink-400">服务与价格</a></li>
+          <li><a href="form.html" class="hover:text-pink-400">免费解读预约</a></li>
+          <li><a href="blog.html" class="hover:text-pink-400">博客文章</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container mx-auto py-12">
+    <h2 class="text-3xl font-bold mb-8 text-center">服务与价格</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-[var(--color-milktea)] p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">生辰解读</h3>
+        <p class="mb-4">探索你的内在能量、性格与命运倾向，提供免费和付费选项。</p>
+        <ul class="space-y-1">
+          <li>免费解读：提供基础性格分析</li>
+          <li>付费深度解读：¥299 / 60分钟</li>
+        </ul>
+      </div>
+      <div class="bg-[var(--color-pink)] p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">一对一咨询</h3>
+        <p class="mb-4">与专业咨询师面对面沟通，解决情感与心理困惑</p>
+        <ul class="space-y-1">
+          <li>线上咨询：¥399 / 60分钟</li>
+          <li>线下咨询：¥499 / 60分钟</li>
+        </ul>
+      </div>
+      <div class="bg-[var(--color-green)] p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">成长课程</h3>
+        <p class="mb-4">系统课程帮助情绪管理、亲密关系修复、自我成长</p>
+        <ul class="space-y-1">
+          <li>情绪管理：¥199 / 4课时</li>
+          <li>亲密关系修复：¥299 / 6课时</li>
+          <li>自我成长：¥249 / 5课时</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[var(--color-milktea)] py-6 mt-12 text-center text-gray-600">
+    &copy; 2026 暖心心理疗愈 | <a href="about.html" class="hover:text-pink-400">关于我</a>
+  </footer>
 </body>
 </html>
